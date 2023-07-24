@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: min-content;
+}
+
+.hoverborder {
+  border: 1px solid rgb(70, 66, 66);
+}
+.hoverborder:hover {
+  border: 1px solid rgb(70, 66, 66);
+}

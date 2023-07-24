@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  .accordian {
+    width: 450px;
+    border: 2px solid gainsboro;
+    margin: 10px 0px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .celebrity-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .celebrity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .celebrity-name {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .celebrity-picture {
+    border-radius: 50%;
+  }
+  .celebrities-dob-gen-country {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .description {
+    margin-top: 10px;
+  }
+  .plus-minus {
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .edit {
+    margin: 0px 20px;
+  }
+  
+  .edit_age {
+    width: 100px;
+    padding: 5px 0px;
+    border-radius: 8px;
+  }
+  .edit_gendar {
+    width: 100px;
+    padding: 5px 0px;
+    border-radius: 8px;
+  }
+  
+  .edit_country {
+    width: 100px;
+    padding: 5px 0px;
+    border-radius: 8px;
+  }
+  .edit_Name {
+    width: 100px;
+    padding: 5px 0px;
+    border-radius: 8px;
+  }
+  .InputNameFiled {
+    display: flex;
+  }
